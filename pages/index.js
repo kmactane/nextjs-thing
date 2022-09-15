@@ -15,9 +15,6 @@ export default function Home(props) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>I'm a front-end web developer who's learning about Next.JS.</p>
-        <p>
-          The time is <span className={utilStyles.special}>{props.time}</span>, epsilon. (Dev&nbsp;update at <span className={utilStyles.special}>{timestamp()}</span>.)
-        </p>
         <section>
           <h2>Blog</h2>
           <ul className={utilStyles.list}>
